@@ -1,0 +1,13 @@
+{
+"manifest_version": 2,
+"name" : "close tab",
+"description" : "closing facebooktabs",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions" : [
+	"*://*.facebook.com/*",
+	"tabs"
+	]
+}
